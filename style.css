@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    color: #ffff;
+
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    display: flex;
+}
+
+.left{
+    height: 100vh;
+    width: 20%;
+    border-right    : #ffff .1px solid;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.left input{
+    padding: 10px 40%;
+    border-radius: 20px;
+    background-color: #1D9BF0;
+    border: none;
+    color: white;
+}
+
+.user-info{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.user-info p{
+    font-size: small;
+}
+
+.icon{
+    padding:18px 20px;
+    border-radius: 20px;
+}
+
+.icon:hover{
+    background-color: #181818;
+}
+
+.center{
+    height: 100vh;
+    width: 45%;
+    border: #ffff .1px solid;
+}
+
+.right{
+    height: 100vh;
+    width: 35%;
+    border: #ffff .1px solid;
+}
+
+.home{
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: white 1px solid;
+    padding: 20px 10px;
+}
+
+.home div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.home h4:hover{
+    border-bottom: #1D9BF0 5px solid;
+}
+
+.extra-tweet{
+    height: 40px;
+    border-bottom: white 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1D9BF0;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    gap: 20px;
+}
+
+.post{
+    padding-top: 20px;
+    margin-left:60px ;
+}
+
+.primary-color{
+    color: #1D9BF0;
+}
+
+.poll{
+    display: flex;
+    flex-direction: column;
+}
+
+.poll button{
+    background-color: transparent;
+    border-color: #1D9BF0;
+    color: white;
+    border-radius: 20px;
+    padding: 15px;
+    gap: 2px;
+}
+
+.poll button:hover{
+    background-color: #1D9BF0;
+}
+
+.right input{
+    padding: 15px;
+    background-color: #16181C;   
+    border: none;
+    width: 100px;
+    
+}
+
+.search{
+    margin-top: 20px;
+    margin-left: 30px;
+    padding: 5px 30px;
+    background-color: #16181C;   
+    border-radius: 30px;
+    width: 300px;
+}
+
+.trending{
+    background-color: #16181C;
+    height: 450px;
+    width: 75%;
+    border-radius: 20px;
+    margin-left:30px;
+    padding: 20px;
+}
+
+.trending-tags{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.gray-color{
+    color: gray;
+}
+
+.trending-tags-items{
+    padding-top: 20px;
+}
